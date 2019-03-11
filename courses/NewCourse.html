@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>New course</title>
+        <link rel="stylesheet" href="../css/common.css">
+    </head>
+    <body>
+    <div>
+        <h2>
+            New course
+        </h2>
+        <div>
+            <form>
+                <label>
+                    <span>Course title</span>
+                    <input name="title" id="title" type="text" placeholder="course title..." required>
+                </label>
+                <br>
+
+                <label>
+                    <span>Course stream</span>
+                    <select id="stream" name="stream" required>
+                        <option disabled selected value>Choose stream</option>
+                        <option value="java">Java</option>
+                        <option value="c#">C#</option>
+                    </select>
+                </label>
+                <br>
+
+                <label for="type">
+                    <span>Course type</span>
+                    <select id="type" name="type" required>
+                        <option disabled selected value>Choose type</option>
+                        <option>Full time</option>
+                        <option>Part time</option>
+                    </select>
+                </label>
+                <br>
+
+                <label for="startdate">
+                    <span>Start date</span>
+                    <input id="startdate" name="startdate" type="date" required>
+                </label>
+                <br>
+
+                <label for="enddate">
+                    <span>End date</span>
+                    <input id="enddate" name="enddate" type="date" required>
+                </label>
+                <br>
+
+                <input type="submit">
+                <input type="reset">
+            </form>
+        </div>
+    </div>
+    </body>
+</html>
