@@ -17,6 +17,9 @@ a:visited, a:active{
     color: black;
     text-decoration: none;
 }
-table, th, td{
+table,th, td{
     border: 1px solid black;
+}
+.edit{
+    border: none;
 }
