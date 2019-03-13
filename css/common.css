@@ -8,10 +8,17 @@ label span {
     width: 100px;
 }
 
+
 footer{
     bottom: 0;
     position: absolute;
     overflow: hidden;
+    margin-left: 45%;
+    width: auto;
+}
+
+.links{
+    margin-left: 10%;
 }
 
 a{
@@ -27,8 +34,9 @@ a:visited, a:active{
     text-decoration: none;
 }
 
-thead{
-    font-size: 2.5em;
+caption{
+    text-decoration: underline;
+    font-size: large;
 }
 
 th, td{
@@ -46,7 +54,8 @@ tr:hover {
 
 table{
     border-collapse: collapse;
-    width: 90%;
+    width: 80%;
+    margin-left: 10%;
     text-align: center;
 }
 
@@ -93,6 +102,15 @@ h1, h2{
 form{
     text-align: center;
 }
-input, textarea{
+
+input, textarea, select{
     border-radius: 6px;
+}
+input[type="submit"]{
+    background-color: green;
+    color: white;
+}
+input[type="reset"]{
+    background-color: red;
+    color: white;
 }
