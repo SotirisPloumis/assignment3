@@ -43,6 +43,8 @@ caption{
 
 th, td{
     border-bottom: 1px solid #ddd;
+    max-width: 5px;
+    overflow: hidden;
 }
 
 th{
