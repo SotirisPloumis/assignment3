@@ -19,19 +19,40 @@
             <form>
                 <label>
                     <span>First name</span>
-                    <input value="John" name="fname" id="fname" type="text" placeholder="first name..." required>
+                    <input value="John"
+                           name="fname"
+                           id="fname"
+                           type="text"
+                           pattern="[A-Za-z]+"
+                           title="Only letters are allowed"
+                           placeholder="first name..."
+                           required>
                 </label>
                 <br>
 
                 <label>
                     <span>Last name</span>
-                    <input value="Papas" name="lname" id="lname" type="text" placeholder="last name..." required>
+                    <input value="Papas"
+                           name="lname"
+                           id="lname"
+                           type="text"
+                           pattern="[A-Za-z]+"
+                           title="Only letters are allowed"
+                           placeholder="last name..."
+                           required>
                 </label>
                 <br>
 
                 <label>
                     <span>Subject</span>
-                    <input value="Intro to programming" id="subject" name="subject" type="text" placeholder="subject..." required>
+                    <input value="Intro to programming"
+                           id="subject"
+                           name="subject"
+                           type="text"
+                           pattern="[A-Za-z]"
+                           title="Only letters are allowed"
+                           placeholder="subject..."
+                           required>
                 </label>
                 <br>
 
@@ -41,7 +62,10 @@
         </div>
     </div>
     <footer>
-        <a href="https://www.linkedin.com/in/sotiris-ploumis/">Created by Sotiris Ploumis</a>
+        Created by Sotiris Ploumis
+        <a href="https://www.linkedin.com/in/sotiris-ploumis/">
+            <i class="fab fa-linkedin"></i>
+        </a>
     </footer>
     </body>
 </html>

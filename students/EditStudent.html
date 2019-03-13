@@ -4,7 +4,10 @@
         <meta charset="UTF-8">
         <title>Edit student</title>
         <link rel="stylesheet" href="../css/common.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet"
+              href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+              integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+              crossorigin="anonymous">
     </head>
     <body>
     <div>
@@ -22,25 +25,48 @@
             <form>
                 <label>
                     <span>First name</span>
-                    <input value="Sotos" name="fname" id="fname" type="text" placeholder="first name..." required>
+                    <input value="Sotos"
+                           name="fname"
+                           id="fname"
+                           type="text"
+                           pattern="[A-Za-z]+"
+                           title="Only letters are allowed"
+                           placeholder="first name..."
+                           required>
                 </label>
                 <br>
 
                 <label>
                     <span>Last name</span>
-                    <input value="Ploumis" name="lname" id="lname" type="text" placeholder="last name..." required>
+                    <input value="Ploumis"
+                           name="lname"
+                           id="lname"
+                           type="text"
+                           pattern="[A-Za-z]+"
+                           title="Only letters are allowed"
+                           placeholder="last name..."
+                           required>
                 </label>
                 <br>
 
                 <label>
                     <span>Date of Birth</span>
-                    <input value="1993-04-06" name="dob" id="dob" type="date" required>
+                    <input value="1993-04-06"
+                           name="dob"
+                           id="dob"
+                           type="date"
+                           required>
                 </label>
                 <br>
 
                 <label>
                     <span>Fees</span>
-                    <input value="10000" id="fees" name="fees" type="number" placeholder="tuittion fees..." required>
+                    <input value="10000"
+                           id="fees"
+                           name="fees"
+                           type="number"
+                           placeholder="tuition fees..."
+                           required>
                 </label>
                 <br>
 
@@ -50,7 +76,10 @@
         </div>
     </div>
     <footer>
-        <a href="https://www.linkedin.com/in/sotiris-ploumis/">Created by Sotiris Ploumis</a>
+        Created by Sotiris Ploumis
+        <a href="https://www.linkedin.com/in/sotiris-ploumis/">
+            <i class="fab fa-linkedin"></i>
+        </a>
     </footer>
     </body>
 </html>
